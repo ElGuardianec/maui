@@ -20,13 +20,13 @@ using Xamarin.Forms.Internals;
 using static Android.Views.View;
 using static Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat.NavigationPage;
 using ActionBarDrawerToggle = AndroidX.AppCompat.App.ActionBarDrawerToggle;
+using APlatform = Xamarin.Forms.Platform.Android.AppCompat.Platform;
 using AToolbar = AndroidX.AppCompat.Widget.Toolbar;
 using AView = Android.Views.View;
 using Fragment = AndroidX.Fragment.App.Fragment;
 using FragmentManager = AndroidX.Fragment.App.FragmentManager;
 using FragmentTransaction = AndroidX.Fragment.App.FragmentTransaction;
 using Object = Java.Lang.Object;
-using APlatform = Xamarin.Forms.Platform.Android.AppCompat.Platform;
 
 namespace Xamarin.Forms.Platform.Android.AppCompat
 {
